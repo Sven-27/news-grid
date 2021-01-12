@@ -108,7 +108,7 @@
   }
 
   .bg-secondary{
-      background: var(--primary-color);
+      background: var(--secondary-color);
       color: #fff;
   }
 
@@ -137,6 +137,10 @@
     .p-1{ padding: 1.5rem; }
     .p-2{ padding: 2rem; }
     .p-3{ padding: 3rem; }
+
+  .l-heading{
+      font-size: 3rem;
+  }
 
     .list li{
         padding: .5rem 0;
@@ -262,6 +266,18 @@
 
 #home-articles .articles-container > *:last-child{
     grid-column: 2 / span 2;
+}
+
+#article .meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5;
+}
+
+.article .meta .category{
+    margin-top: .4rem;
 }
 
 /* Footer */
